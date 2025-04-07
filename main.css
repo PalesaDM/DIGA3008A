@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: grey;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav {
+    background: rgb(234, 234, 209);
+}
