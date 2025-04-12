@@ -1,10 +1,45 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: beige;
     background-size: cover;
     height: 100vh;
 }
 
 nav {
-    background: rgb(234, 234, 209);
+    background-color: whitesmoke;
+    backdrop-filter: blur(7px);
+    height: 80px;
+    width: 100%;
+}
+
+.logo {
+  color: black;
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 80px;
+  margin: 0 50px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+nav ul li a {
+    font-size: 25px;
+    color: black;
+}
+
+a.active {
+    background: grey;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 30px;
 }
