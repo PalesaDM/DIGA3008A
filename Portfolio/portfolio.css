@@ -6,7 +6,7 @@
   
   body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f5f5f0; /* beige */
+    background-color: beige;
     color: #111;
     line-height: 1.6;
   }
@@ -159,5 +159,12 @@
   
   .navbar .nav-link.active {
     background: #cfcfcf;
+  }
+  .navbar .nav-link.active {
+    background-color: #cfcfcf;
+    color: #111;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: background 0.3s ease;
   }
   
