@@ -4,9 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet" />
+    <link href="stylesheet" href="design.css" />
+    <link href="stylesheet" href="../main.css" />
+
 </head>
 
 <body>
+    <nav>
+        <div class="logo">My Website</div>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Blog/blog.html">Blog</a></li>
+            <li><a href="../Essays/essay.html">Essays</a></li>
+            <li><a href="design.html" class="active">Design</a></li>
+        </ul>
+    </nav>
+
+    <section class="design-page">
+
+        <header class="design-header">
+            <h1>Design System</h1>
+            <p>StyleGuide and Wireframes used in this project</p>
+        </header>
+
+        <section class="styleguide">
+            <h2>Color Palette</h2>
+            <div class="color-swatch" style="background: #f5f5f0;">Beige</div>
+            <div class="color-swatch" style="background: #e0e0e0;">Light Grey</div>
+            <div class="color-swatch" style="background: #d4d4d4;">Warm Grey</div>
+            <div class="color-swatch" style="background: #ffffff;">White</div>
+            <div class="color-swatch" style="background: #111111; color: white;">Black</div>
+        </div>
+
+        <h2>Typography</h2>
+        <div class="typography-samples">
+            <h1>Heading 1 - Poppins</h1>
+            <h2>Heading 2 - Poppins</h2>
+            <p>Body text - Source Sans Pro. This is the standard body text used for the whole site.</p>
+        </div>
+
+        <h2>Buttons</h2>
+        <div class="ui-elements">
+            <a href="#" class="button-sample">Default Button</a>
+            <a href="#" class="button-sample">Secondary Action</a>
+        </div>
+        </section>
+
+        <section class="wireframes">
+            <h2>Wireframes</h2>
+            <div class="wireframe-gallery">
+                <img src="../Images/aboutpage.png" alt="aboutpage.png">
+                <img src="../Images/homepage.png" alt="homepage.png">
+                <img src="../Images/blogpage.png" alt="blogpage.png">
+                <img src="../Images/essaypage.png" alt="essaypage.png">
+
+            </div>
+        </section>
     <header>
         Design Page
     </header>
@@ -26,6 +80,6 @@
         <h2><a href= "styleguide.html">Style Guides</a></h2>
         <h2><a href= "wireframes.html"> Wireframes</a></h2>
     </main>
-    
+</section>   
 </body>
 </html>
