@@ -1,4 +1,4 @@
-/* Base Styles */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,9 +13,9 @@
     padding-bottom: 80px;
   }
   
-  /* Navbar */
+  
   .navbar {
-    background-color: #fff;
+    background-color:#555;
     padding: 15px 20px;
     border-bottom: 1px solid #ddd;
     position: sticky;
@@ -31,17 +31,17 @@
   
   .navbar a {
     text-decoration: none;
-    color: #111;
+    color:#c2c2c2;
     font-weight: 500;
     padding: 6px 12px;
     border-radius: 8px;
   }
   
   .navbar a.active {
-    background-color: #ccc;
+    background-color:#111;
   }
   
-  /* Essay Layout */
+  
   .essay-container {
     max-width: 700px;
     margin: 60px auto 20px;
@@ -71,7 +71,7 @@
     color: #888;
   }
   
-  /* Back Link */
+  
   .back-link {
     display: inline-block;
     margin-top: 40px;
@@ -87,7 +87,7 @@
     background-color: #c2c2c2;
   }
   
-  /* Footer */
+  
   footer {
     text-align: center;
     padding: 30px 0;
