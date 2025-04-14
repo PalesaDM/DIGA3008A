@@ -185,4 +185,49 @@
   .say-hello-btn:hover {
     background-color: #444;
   }
+
+  .skills-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f8f6f2; /* Soft beige */
+  }
+  
+  .skills-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #222;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .skill-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .skill-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 12px;
+  }
+  
+  .skill-card p {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+  }
+  
   
