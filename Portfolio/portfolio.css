@@ -229,5 +229,12 @@
     color: #333;
     margin: 0;
   }
+  .skill-card img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 12px;
+  }
   
   
