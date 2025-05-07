@@ -424,4 +424,36 @@ nav ul li a:hover {
     color: black;
   }
   
+  /* Light mode (default) */
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+nav.dark-mode {
+  background-color: #1e1e1e;
+}
+
+.site-footer.dark-mode {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+#darkModeToggle {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #444;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
   
