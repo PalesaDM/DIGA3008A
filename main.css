@@ -549,5 +549,36 @@ nav.dark-mode {
   box-shadow: 0 0 0 2px rgba(0,0,0,0.05);
 }
 
+/* Hamburger styles */
+.hamburger {
+  cursor: pointer;
+  display: none; /* Hidden on desktop */
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  nav ul.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+/* Blog card animation base state */
+.blog-card {
+  transition: all 0.3s ease;
+}
 
   
