@@ -9,17 +9,24 @@
     <link rel="stylesheet" href="../main.css" />
     <link rel="stylesheet" href="/cursor.css">
     <script src="/cursor.js" defer></script>
-
+    <script src="blog.js" defer></script>
 </head>
 
 <body>
     
     <nav>
         <div class="logo">Subtle by P</div>
-        <ul>
+        <div class="hamburger" id="hamburger">
+            <svg width="30" height="30" viewBox="0 0 100 80" fill="none">
+                <rect width="100" height="10" rx="5" fill="#333"/>
+                <rect y="30" width="100" height="10" rx="5" fill="#333"/>
+                <rect y="60" width="100" height="10" rx="5" fill="#333"/>
+            </svg>  
+        </div>
+        <ul id="nav-links">
             <li><a href="../index.html">Home</a></li>
             <li><a href="blog.html" class="active">Blogs</a></li>
-            <li><a href="../Designpage/design.html">DesignPage</a></li>
+            <li><a href="../Designpage/design.html">-Designs</a></li>
             <li><a href="../Essays/essay.html">Essays</a></li>
             <li><a href="../Portfolio/portfolio.html">Portfolio</a></li>
         </ul>
@@ -27,52 +34,84 @@
     
     <section class="blog section">
         <h1>Weekly Blogs</h1>
-        <div class="blog list">
-            <a href="week1blog.html" class="blog-card">
+
+        <input type="text" id="searchInput" placeholder="Search blog posts..." />
+
+        <div class="blog-list" id="blogList">
+            <div class="blog-card fade-in">
                 <h2>Week 1 - Setting up GitHub</h2>
                 <p>A reflection on the journey of building my first website</p>
-            </a>
-
-            <a href="week2blog.html" class="blog-card">
-                <h2>Week 2- Moulthrop’s</h2>
-                <p>Exploring Moulthrop’s Reading & Discussing URL Structure</p>
-            </a>
-
-            <a href="week3blog.html" class="blog-card">
-                <h2>Week 3-User Alignment</h2>
-                <p>Wireframing and mapping</p>
-            </a>
-
-            <a href="week4blog.html" class="blog-card">
-                <h2>Week 4- lxd Process</h2>
-                <p>Design Section ideas for my website</p>
-            </a>
-
-            <a href="week5blog.html" class="blog-card">
-                <h2>Week 5- Design Section</h2>
-                <p>Combining all research and resources for the design section</p>
-            </a>
-
-            <a href="week6blog.html" class="blog-card">
-                <h2>Week 6- Design Section</h2>
-                <p>Continuation of combining all research and resources for the design section</p>
-            </a>
-
-            <a href="week7blog.html" class="blog-card">
-                <h2>Week 7- Blog Posts</h2>
-                <p>Website examples for UI & UX essay analysis</p>
-            </a>
+                <a href="week1blog.html" class="cta-button">Read More</a>
         </div>
 
+            <div class="blog-card fade-in">
+                <h2>Week 2 - Moulthrop’s</h2>
+                <p>Exploring Moulthrop’s Reading & Discussing URL Structures</p>
+                <a href="week2blog.html" class="cta-button">Read More</a>
+            </div>
+            
+            <div class="blog-card fade-in">
+                <h2>Week 3 - User Alignment</h2>
+                <p>Wireframing and mapping</p>
+                <a href="week3blog.html" class="cta-button">Read More</a>
+            </div>
 
-    </section>
+            <div class="blog-card fade-in">
+                <h2>Week 4 - LxD Process</h2>
+                <p>Design Section Ideas for Website</p>
+                <a href="week4blog.html" class="cta-button">Read More</a>
+            </div>
+
+            <div class="blog-card fade-in">
+                <h2>Week 5 - Design Section</h2>
+                <p>Combining all research and resources for the design section</p>
+                <a href="week5blog.html" class="cta-button">Read More</a>
+            </div>
+
+            <div class="blog-card fade-in">
+                <h2>Week 6 - Design Section</h2>
+                <p>Continuation of combining all research and resources for design section</p>
+                <a href="week6blog.html" class="cta-button">Read More</a>
+            </div>
+
+            <div class="blog-card fade-in">
+                <h2>Week 7 - Blog Posts</h2>
+                <p>Website examples for UI & UX essay analysis</p>
+                <a href="week7blog.html" class="cta-button">Read More</a>
+            </div>
+
+            <div class="blog-card fade-in">
+                <h2>Week 8 - ..</h2>
+                <p>...</p>
+                <a href="week8blog.html" class="cta-button">Read More</a>
+            </div>
+
+            <div class="blog-card fade-in">
+                <h2>Week 9 -...</h2>
+                <p>...</p>
+                <a href="week9blog.html" class="cta-button">Read More</a>
+            </div>
+
+            <div class="blog-card fade-in">
+                <h2>Week 10 - ..</h2>
+                <p>...</p>
+                <a href="week10blog.html" class="cta-button">Read More</a>
+            </div>
+
+            <div class="blog-card fade-in">
+                <h2>Week 11 -..</h2>
+                <p>...</p>
+                <a href="week11blog.html" class="cta-button">Read More</a>
+            </div>
+
+            <div class="blog-card fade-in">
+                <h2>Week 12 - ..</h2>
+                <p>...</p>
+                <a href="week12blog.html" class="cta-button">Read More</a>
+            </div>
+        </div>
+     </section>
     
-    
-
-
-
-
-
     
 </body>
 </html>
