@@ -11,7 +11,54 @@
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="/cursor.css">
     <script src="/cursor.js" defer></script>
-
+    <style>
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        nav {
+          flex-direction: column;
+          height: auto;
+          padding: 10px 20px;
+        }
+  
+        nav ul {
+          margin: 10px 0 0;
+          text-align: center;
+          padding: 0;
+        }
+  
+        nav ul li {
+          display: block;
+          margin: 10px 0;
+        }
+  
+        .hero h1 {
+          font-size: 32px;
+        }
+  
+        .hero p {
+          font-size: 18px;
+        }
+  
+        .profile-pic {
+          width: 140px;
+          height: 140px;
+        }
+      }
+  
+      @media (max-width: 480px) {
+        .logo {
+          font-size: 24px;
+        }
+  
+        .hero h1 {
+          font-size: 24px;
+        }
+  
+        .hero p {
+          font-size: 16px;
+        }
+      }
+    </style>
  </head>
 
  <body>
@@ -27,10 +74,15 @@
 
  <nav>
     <div class="logo">Subtle by P</div>
-    <ul>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="nav-links" id="navLinks">
       <li><a href="index.html" class="active" >Home</a></li>
       <li><a href="Blog/blog.html">Blogs</a></li>
-      <li><a href="Designpage/design.html" >DesignPage</a></li>
+      <li><a href="Designpage/design.html" >Design</a></li>
       <li><a href="Essays/essay.html" >Essays</a></li>
       <li><a href="Portfolio/portfolio.html" >Portfolio</a></li>
     </ul>
