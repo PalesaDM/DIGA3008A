@@ -33,15 +33,13 @@
     border-bottom: 2px solid black;
     font-weight: bold;
   }
-  /* Default (light) mode styles already exist — no change needed */
-
-/* Dark mode styles when .dark-mode is added to <body> */
+  
 body.dark-mode {
     background-color: #111111;
     color: #ffffff;
   }
   
-  /* Update nav styles in dark mode */
+  
   body.dark-mode nav {
     background-color: #222;
   }

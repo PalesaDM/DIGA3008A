@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (navContainer) {
           navContainer.innerHTML = data;
   
-          // Wait for nav content to be injected, then highlight active link
+          
           highlightActiveLink();
         }
       });
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
           toggleBtn.addEventListener("click", () => {
             document.body.classList.toggle("dark-mode");
 
-            // Optionally remember user choice
+            
             if (document.body.classList.contains("dark-mode")) {
               localStorage.setItem("theme", "dark");
             } else {
@@ -25,13 +25,13 @@ document.addEventListener("DOMContentLoaded", () => {
           });
         }
 
-        // Apply saved theme on load
+        
         const savedTheme = localStorage.getItem("theme");
         if (savedTheme === "dark") {
           document.body.classList.add("dark-mode");
         }
 
-  // Define the function correctly
+  
   function highlightActiveLink() {
     const currentPage = window.location.pathname.split("/").pop();
   

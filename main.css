@@ -395,7 +395,7 @@ nav ul li a:hover {
   }
   
   .site-footer {
-    background-color: #f2f0eb; /* light beige */
+    background-color: #f2f0eb; 
     padding: 30px 20px;
     text-align: center;
     font-size: 14px;
@@ -424,14 +424,14 @@ nav ul li a:hover {
     color: black;
   }
   
-  /* Light mode (default) */
+  
 body {
   background-color: white;
   color: black;
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* Dark mode */
+/* No longer using this */
 body.dark-mode {
   background-color: #121212;
   color: #f0f0f0;
@@ -552,7 +552,7 @@ nav.dark-mode {
 /* Hamburger styles */
 .hamburger {
   cursor: pointer;
-  display: none; /* Hidden on desktop */
+  display: none; 
 }
 
 @media (max-width: 768px) {
@@ -576,7 +576,7 @@ nav.dark-mode {
   }
 }
 
-/* Blog card animation base state */
+
 .blog-card {
   transition: all 0.3s ease;
 }
@@ -588,17 +588,17 @@ nav a.active {
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  /* Background image */
-  background-image: url(Images/bacgroundimg2.0.jpg); /* <-- your background image path */
+  
+  background-image: url(Images/bacgroundimg2.0.jpg); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: white; /* Text color for visibility on background */
+  color: white; /
   height: 100vh;
 }
 .overlay {
-  background-color:  rgba(255, 255, 255, 0.1); /* Black with 50% opacity */
+  background-color:  rgba(255, 255, 255, 0.1);
   min-height: 100vh;
   padding: 100px 20px;
   text-align: center;
