@@ -580,5 +580,10 @@ nav.dark-mode {
 .blog-card {
   transition: all 0.3s ease;
 }
+nav a.active {
+  color: white;
+  border-bottom: 2px solid #111;
+  font-weight: bold;
+}
 
   
