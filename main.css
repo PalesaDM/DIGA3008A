@@ -585,5 +585,36 @@ nav a.active {
   border-bottom: 2px solid #111;
   font-weight: bold;
 }
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  /* Background image */
+  background-image: url(Images/bacgroundimg2.0.jpg); /* <-- your background image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white; /* Text color for visibility on background */
+  height: 100vh;
+}
+.overlay {
+  background-color:  rgba(255, 255, 255, 0.1); /* Black with 50% opacity */
+  min-height: 100vh;
+  padding: 100px 20px;
+  text-align: center;
+  box-sizing:border-box;
+}
+.hero {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
 
-  
+.profile-pic img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 20px;
+  border: 3px solid white;
+}
