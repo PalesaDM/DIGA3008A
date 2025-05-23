@@ -16,55 +16,67 @@
 <body>
     <div id="navbar-container"></div>
 
-    <section class="design-page">
 
-        <header class="design-header">
+    <section class="design-page">
+      <header class="design-header">
             <h1>Design Section</h1>
             <p>StyleGuide and Wireframes used in this project</p>
         </header>
 
-        <section class="styleguide">
-            <h2>Color Palette</h2>
-            <div class="color-swatch" style="background: #f5f5f0;">Beige</div>
-            <div class="color-swatch" style="background: #e0e0e0;">Light Grey</div>
-            <div class="color-swatch" style="background: #d4d4d4;">Warm Grey</div>
-            <div class="color-swatch" style="background: #ffffff;">White</div>
-            <div class="color-swatch" style="background: #111111; color: white;">Black</div>
-        </div>
-
-        <h2>Typography</h2>
-        <div class="typography-samples">
+        <section class="collapsible">
+            <h2 class="collapsible-header">Color Palette</h2>
+            <div class="collapsible-content">
+              <div class="color-swatch" data-hex="#f5f5f0" style="background: #f5f5f0;">Beige</div>
+              <div class="color-swatch" data-hex="#e0e0e0" style="background: #e0e0e0;">Light Grey</div>
+              <div class="color-swatch" data-hex="#d4d4d4" style="background: #d4d4d4;">Warm Grey</div>
+              <div class="color-swatch" data-hex="#ffffff" style="background: #ffffff;">White</div>
+              <div class="color-swatch" data-hex="#111111" style="background: #111111; color: white;">Black</div>
+              <div class="preview-box" id="color-preview">Click a color to copy</div>
+              <button class="export-btn">Export Palette</button>
+            </div>
+        </section>
+            
+       <section class="collapsible">
+        <h2 class="collapsible-header">Typography</h2>
+        <div class="collapsible-content typography-samples">
             <h1>Heading 1 - Poppins</h1>
             <h2>Heading 2 - Poppins</h2>
-            <p>Body text - Source Sans Pro. This is the standard body text used for the whole site.</p>
+            <p>Body text - Source Sans Pro. This is the standard body text used for the whole site.</p>   
         </div>
-
-        <h2>Buttons</h2>
-        <div class="ui-elements">
-            <a href="#" class="button-sample">Default Button</a>
-            <a href="#" class="button-sample">Secondary Action</a>
+       </section>
+        
+       <section class="collapsible">
+        <h2 class="collapsible-header">Buttons</h2>
+        <div class="collapsible-content ui-elements">
+          <a href="#" class="button-sample">Default Button</a>
+          <a href="#" class="button-sample">Secondary Action</a>
         </div>
-        </section>
+      </section>
 
-        <section class="wireframes">
-            <h2>Wireframes</h2>
-            <div class="wireframe-gallery">
+      <section class="collapsible">
+        <h2 class="collapsible-header">Wireframes</h2>
+        <div class="collapsible-content wireframe-gallery">
                 <img src="../Images/aboutpage.png" alt="aboutpage.png">
                 <img src="../Images/homepage.png" alt="homepage.png">
                 <img src="../Images/blogpage.png" alt="blogpage.png">
                 <img src="../Images/essaypage.png" alt="essaypage.png">
 
             </div>
-        </section>
+           </section>
 
        
-    <main>
+      <main>
         <h1>StyleGuide</h1>
 
         <h2><a href= "styleguide.html">Style Guides</a></h2>
-        
-    </main>
-</section> 
+        </main>
+     </section>
+
+     <div id="image-modal" class="modal">
+        <span class="close-btn">&times;</span>
+        <img class="modal-content" id="modal-image" />
+        <div id="modal-caption"></div>
+      </div>
 
  <script src="../NavBar/navbar.js"></script>
 </body>
