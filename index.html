@@ -1,67 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palesa's Website</title>
-  <script src="index.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet"> 
+    <script src="index.js"></script>
     <link rel="stylesheet" href="normalise.css" />
     <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="/cursor.css">
+    <link rel="stylesheet" href="/cursor.css" />
+    
+    <link rel="styelsheet" href="NavBar/navbar.css" />
+
     <script src="/cursor.js" defer></script>
-    <style>
-      /* Responsive adjustments */
-      @media (max-width: 768px) {
-        nav {
-          flex-direction: column;
-          height: auto;
-          padding: 10px 20px;
-        }
-  
-        nav ul {
-          margin: 10px 0 0;
-          text-align: center;
-          padding: 0;
-        }
-  
-        nav ul li {
-          display: block;
-          margin: 10px 0;
-        }
-  
-        .hero h1 {
-          font-size: 32px;
-        }
-  
-        .hero p {
-          font-size: 18px;
-        }
-  
-        .profile-pic {
-          width: 140px;
-          height: 140px;
-        }
-      }
-  
-      @media (max-width: 480px) {
-        .logo {
-          font-size: 24px;
-        }
-  
-        .hero h1 {
-          font-size: 24px;
-        }
-  
-        .hero p {
-          font-size: 16px;
-        }
-      }
-    </style>
- </head>
+</head>
+
+
 
  <body>
+
+  <div id="navbar-container"></div>
   <section class="hero">
     <h1>Welcome to My Website</h1>
     <p>Imagine. Design. Create.</p>
@@ -69,38 +29,7 @@
         <img src="Images/ProfileImage.jpg" alt="A photo of me">
       </div>
     
-  </section>
-<header> /*changes*/
-  <nav class="navbar">
-    <div class="nav-container">
-      <div class="logo">Subtle by P</div>
-      <button class="hamburger" aria-label="Toggle navigation">
-        <span></span><span></span><span></span>
-      </button>
-      <ul class="nav-links">
-
-      </ul>
-    </div>
-  </nav>
-</header>
-
- <nav>
-    <div class="logo">Subtle by P</div>
-    <div class="hamburger" id="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>//changes//
-    <ul class="nav-links" id="navLinks">
-      <li><a href="index.html" class="active" >Home</a></li>
-      <li><a href="Blog/blog.html">Blogs</a></li>
-      <li><a href="Designpage/design.html" >Design</a></li>
-      <li><a href="Essays/essay.html" >Essays</a></li>
-      <li><a href="Portfolio/portfolio.html" >Portfolio</a></li>
-    </ul>
-    <button id="darkModeToggle">Toggle Dark Mode</button>
-   </nav>
-
+    </section>
    <footer class="site-footer">
     <div class="footer-content">
       <p>&copy; 2025 Palesa M. All rights reserved.</p>
@@ -110,6 +39,7 @@
       </div>
     </div>
   </footer>
-  
- </body>
+
+  <script src="NavBar/navbar.js" defer></script>
+</body>
 </html>
