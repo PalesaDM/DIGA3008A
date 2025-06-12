@@ -188,6 +188,18 @@ nav ul li a:hover {
     margin-bottom: 20px;
   }
 
+  .content-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Adds contrast behind text */
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 700px;
+    margin: 60px auto;
+    line-height: 1.8;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+
   .back-button {
     display: inline-block;
     padding: 10px 20px;
