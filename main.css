@@ -129,6 +129,10 @@ nav ul li a:hover {
     padding: 60px 40px;
     text-align: center;
   }
+  .blog-title {
+    margin-top: 80px; /* adjust based on nav height */
+  }
+  
 
   .blog-section h1 {
     font-family: 'Poppins', sans-serif;
@@ -625,4 +629,17 @@ body {
   object-fit: cover;
   margin-top: 20px;
   border: 3px solid white;
+}
+/* Styled Links */
+a.styled-link {
+  color: #111; /* Matches your black & grey theme */
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+a.styled-link:hover {
+  color: #000;
+  border-color: #000;
 }

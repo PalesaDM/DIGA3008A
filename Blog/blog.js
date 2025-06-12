@@ -77,6 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "week5blog.html",
     "week6blog.html",
     "week7blog.html",
+    "essay.html",
     "week8blog.html",
     "week9blog.html",
     "week10blog.html",
