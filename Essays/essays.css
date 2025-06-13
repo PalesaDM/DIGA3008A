@@ -94,4 +94,57 @@
     color: #666;
     font-size: 0.9rem;
   }
+  .essay-page {
+    background-color: #111;
+    color: white;
+  }
   
+  .essay-page .essay-container {
+    color: white;
+  }
+  
+  .essay-page .essay-body {
+    color: white;
+  }
+  
+  .essay-page .essay-title {
+    color: white;
+  }
+  
+  .essay-page .meta {
+    color: #ccc;
+  }
+  
+  .essay-page .placeholder {
+    color: #bbb;
+  }
+  
+  .essay-page a {
+    color: #9ecbff;
+  }
+  
+  .essay-page a:hover {
+    color: #ffd27f;
+  }
+  
+  .essay-page footer {
+    background-color: #1a1a1a;
+    color: #999;
+  }
+  .essay-page,
+.essay-page .essay-container,
+.essay-page .essay-body,
+.essay-page .essay-body p,
+.essay-page .essay-body li,
+.essay-page .essay-body ul,
+.essay-page .essay-body strong,
+.essay-page .essay-body em,
+.essay-page .essay-title,
+.essay-page h1,
+.essay-page h2,
+.essay-page h3,
+.essay-page h4,
+.essay-page h5,
+.essay-page h6 {
+  color: white !important;
+}

@@ -643,3 +643,12 @@ a.styled-link:hover {
   color: #000;
   border-color: #000;
 }
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 14px;
+  color: #777;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ddd;
+  margin-top: 4rem;
+}
