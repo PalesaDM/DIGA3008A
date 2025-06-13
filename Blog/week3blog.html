@@ -19,8 +19,15 @@
             <li><a href="blog.html" class="active">Blogs</a></li>
         </ul>
     </nav>
-
+  
     <main class="blog-post">
+        <h2>Wireframes</h2>
+<div class="gallery-grid">
+  <img src="../Images/userflow.png" alt="userflow">
+    <img src="../Images/blogpage.png" alt="blog page">
+    <img src="../Images/homepage.png" alt="home page">
+</div>
+
         <div class="content-overlay">
         <h1> Week 3 - Blog Post</h1>
         <p><em>3 March, 2025</em></p>
@@ -52,9 +59,7 @@ These may include buttons specifically for blog page, scroll bars, animated imag
 <P>The above exercise helps me understand and plan my structure and URL scheme more, allowing room for changes every week and improvement. 
     It allows me to engage with the good practice of semantic markup in order to improve accessibility for users and applying or simple practices that will be easy to maintain.</P>
 
-    <img src="../Images/userflow.png" alt="userflow" width="500" height="450">
-    <img src="../Images/blogpage.png" alt="blog page" width="'500" height="450">
-    <img src="../Images/homepage.png" alt="home page" width="'500" height="450">
+
 
 </div>
 <div class="blog-nav-buttons">
@@ -62,9 +67,15 @@ These may include buttons specifically for blog page, scroll bars, animated imag
     <a id="nextBtn" href="#">Next →</a>
   </div>
   
+<div id="lightboxModal" class="lightbox-modal">
+  <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+  <img class="lightbox-content" id="lightboxImg" alt="Expanded view" />
+</div>
+
     </main>
 
 <script src="../NavBar/navbar.js"></script>
 <script src="../Blog/blog.js"></script>
+<script src="../lightbox.js"></script>
 </body>
 </html>
