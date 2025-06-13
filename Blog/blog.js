@@ -80,7 +80,10 @@ document.addEventListener("DOMContentLoaded", () => {
     "week8blog.html",
     "week9blog.html",
     "week10blog.html",
-    "week11blog.html"
+    "week11blog.html",
+    "week12blog.html",
+    "week13blog.html",
+    "week14blog.html",
   ];
 
   const currentPage = window.location.pathname.split("/").pop();
