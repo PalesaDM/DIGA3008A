@@ -148,3 +148,64 @@
 .essay-page h6 {
   color: white !important;
 }
+.essay-link {
+  margin-top: 40px;
+  text-align: center;
+}
+.essay-link a {
+  color: #3366cc;
+  text-decoration: underline;
+}
+body {
+  background-color: #111 !important;
+  color: white !important;
+}
+
+p,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+em,
+a,
+em,
+ul,
+ol,
+li,
+a 
+{
+  color: white !important;
+}
+.essay-page .essay-link {
+  margin: 60px auto;
+  text-align: center;
+  padding: 24px 20px;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  max-width: 700px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+}
+
+.essay-page .essay-link p {
+  font-size: 1.1rem;
+  color: #e0e0e0;
+  margin: 0;
+}
+
+.essay-page .essay-link a {
+  color: #9ecbff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.essay-page .essay-link a:hover {
+  color: #ffd27f;
+  text-decoration: underline;
+}
+

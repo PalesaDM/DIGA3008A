@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 14- Reflection</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="../normalise.css" />
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <script src="../NavBar/navbar.js"></script>
+    
+    <main class="blog-post">
+        <div class="content-overlay">
+    <h1> Week 14 - Website Final Reflection</h1>
+    <p><em>2 May, 2025</em></p>
+
+
+<h2>Folder Structure</h2> 
+<p>Yes, my folder structure does reflect the Hierarchal Information Structure of my content. It includes main pages such as my blogs, designs, essays, portfolio which are all in the navbar. 
+
+Each folder under the above names has html, CSS and JavaScript files. 
+
+        HTML: Used for content structure on pages 
+
+        CSS: Used for styling content across pages 
+
+        JavaScript: User for interaction and DOM manipulation (important concept in                       web design that allows you modify and interact with content). 
+
+Naming conventions are consistent: Folder names start with big capital letters while all the files under the folders are in small letters. 
+</p>
+
+<h2>Semantic markup</h2>
+<p>My website makes use of semantic markup such as <header>, <nav>, <body>, <section>, <main>, <div>, <article>, <footer> etc. 
+
+My interface elements are expressed fully and correctly. I make use of <button>, <nav> and <a> 
+
+My content is expressed fully and makes use of <h1-h3> tags for the headings, <p> for content in paragraphs and <ul> <li> for lists and links. 
+
+Usability can be augmented by providing logical keyboard navigation and screen reader assistance. 
+
+Semantic Markup can improve accessibility by clearly highlighting a meaningful structure and outlining content communication. 
+</p>
+
+<h1>MetaData</h1>
+<p>I have tried to include sufficient metadata across my pages such as the description, author and keywords that will help the user identify main elements of the website and understand the content. Viewport is also present for responsiveness and was already added through the shortcut. My metadata is expressed fully and correctly, although I do think that there could be room to incorporate more metadata. 
+</p>
+
+<h2>CSS</h2>
+<p>I have created external CSS files instead of combining the CSS with the JavaScript. This was done to maintain consistency across the website. I have a main CSS that includes styling for my homepage and blog pages. I have also created separate CSS files for the navbar, designs, essays and portfolio to avoid styling complications and putting too much data in one place/file. 
+
+All CSS files are easy to maintain except for the main CSS as there are constant changes being made to it. 
+
+Yes, I am using responsive layouts such as flexbox for responsiveness and units (%, em) 
+</p>
+
+<h2>JavaScript</h2>
+<p>JavaScript is used for usability and interactivity purposes. 
+
+I found that using java script for my navbar was the easiest way to maintain consistency throughout all the pages as that was an issue for the first 2 assignments. It was dynamically inserted on all pages and saved me a lot of time. 
+
+Fade-in animations, search functionality, project galleries, previous/next navigation buttons, and a reactive cursor have been implemented using DOM manipulation and event listeners. 
+
+All js files are separate. 
+
+Interaction and functionalities that are repeated include the navbar. I attempted to make a shared js file for my footer, but it messed everything up, so I removed it. 
+
+At this current stage, I am not using async requests, but I do plan on making use of them in my future developments of this website and other sites I work on.
+</p>
+
+    
+<script src="../NavBar/navbar.js"></script>
+<script src="../Blog/blog.js" ></script>  
+</body>
+</html>
